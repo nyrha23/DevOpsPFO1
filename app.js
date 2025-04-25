@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Si todo sale bien, se limpian mensajes y muestra
-      document.getElementById('responseMsgUser').textContent = '';
-      document.getElementById('responseMsgPass').textContent = '';
+      document.getElementById('msgUser').textContent = '';
+      document.getElementById('msgPass').textContent = '';
       alert('Formulario enviado correctamente');
       
     } catch (error) {
