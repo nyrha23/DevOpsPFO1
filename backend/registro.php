@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($username) || empty($password)) {
         echo json_encode([
             'status' => 'error',
-            'message' => 'Faltan datos requeridos.'
+            'message' => 'Faltan los datos requeridos.'
         ]);
         exit;
     }
