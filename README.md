@@ -1,3 +1,4 @@
 # Práctica formativa
-Participante UI: Pasi
-Participante Back: 
+
+Participante UI: Pasi 
+Participante Back: Frega
